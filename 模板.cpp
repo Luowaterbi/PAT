@@ -18,18 +18,10 @@ const int N=2e5+5;
 const int mod=1e9+7;
 const db eps=1e-6;                                                                            
 const db pi=acos(-1.0);
-int n,a[N];
+
 int main(){
     #ifndef ONLINE_JUDGE
     freopen("D:\\work\\data.in","r",stdin);
     #endif
-    cin>>n;
-    int ans=0;
-    rep(i,1,n){
-        cin>>a[i];
-        int tmp=a[i]-a[i-1];
-        if(tmp>0) ans+=6*tmp;
-        else ans+=-4*tmp;
-    }
-    cout<<ans+5*n<<endl;
+
 }
